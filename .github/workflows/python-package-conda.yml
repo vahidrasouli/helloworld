@@ -22,4 +22,5 @@ jobs:
          pip install -U pyinstaller
          pyinstaller pilot.py
          # python pilot.py
+         ls /home/runner/work/helloworld/helloworld/build/pilot/pilot
  
