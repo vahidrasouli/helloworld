@@ -20,5 +20,6 @@ jobs:
     - name: execute py script
       run: |
          pip install -U pyinstaller
-         python pilot.py
+         pyinstaller pilot.py
+         # python pilot.py
  
