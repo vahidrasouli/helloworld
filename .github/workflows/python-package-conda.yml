@@ -22,6 +22,6 @@ jobs:
          pip install -U pyinstaller
          pyinstaller pilot.py
          # python pilot.py
-         ls ./dist/
+         ls ./dist/pilot
          #- run: ./dist/
  
