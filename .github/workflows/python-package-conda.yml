@@ -23,5 +23,5 @@ jobs:
          pyinstaller pilot.py
          # python pilot.py
          ls ./dist/pilot
-         - run: ./dist/pilot/pilot
+         - run: ./dist/pilot/pilot.so
  
