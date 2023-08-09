@@ -1,5 +1,4 @@
 name: Python Package using Conda
-
 on: [push]
 
 jobs:
@@ -18,4 +17,5 @@ jobs:
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
-    
+        python pilot.py
+ 
